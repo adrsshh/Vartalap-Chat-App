@@ -51,15 +51,12 @@ const MyChats = ({ fetchAgain }) => {
       flexDir="column"
       alignItems="center"
       justifyContent="center"
-      bg="white"
       w={{ base: "100%", md: "31%" }}
       borderRadius="xl"
       borderWidth="1px"
     >
       <Box
         className="chat-list-inner"
-        pb={3}
-        px={3}
         fontSize={{ base: "28px", md: "30px" }}
         fontFamily="Work sans"
         d="flex"

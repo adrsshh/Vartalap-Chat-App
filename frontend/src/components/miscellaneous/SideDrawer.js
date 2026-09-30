@@ -184,8 +184,8 @@ function SideDrawer() {
           Vartalap
         </Text>
         <Tooltip label="Search Users to chat" hasArrow placement="bottom-end">
-          <Button variant="ghost" onClick={onOpen}>
-            <i className="fas fa-search"></i>
+          <Button variant="outline" onClick={onOpen}>
+            <i className="fas fa-search">Search Users</i>
           </Button>
         </Tooltip>
       </Box>
